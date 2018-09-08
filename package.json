@@ -1,0 +1,13 @@
+{
+  "name": "style-loader-treeshakeable",
+  "version": "1.0.0",
+  "description": "style() not style!",
+  "main": "index.js",
+  "repository": "https://github.com/dferber90/style-loader-treeshakeable",
+  "author": "Dominik Ferber <dominik.ferber+npm@gmail.com> (http://dferber.de/)",
+  "license": "MIT",
+  "devDependencies": {
+    "loader-utils": "1.1.0",
+    "schema-utils": "1.0.0"
+  }
+}

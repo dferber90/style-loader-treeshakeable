@@ -1,0 +1,40 @@
+{
+  "name": "ui-library",
+  "private": true,
+  "description": "An awesome UI-library which is treeshakeable",
+  "main": "index.cjs.js",
+  "author": "Dominik Ferber <dominik.ferber+npm@gmail.com> (http://dferber.de/)",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-serve webpack.config.js --content demo/public",
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "classnames": "2.2.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.0.0",
+    "@babel/core": "7.0.0",
+    "@babel/plugin-proposal-class-properties": "7.0.0",
+    "@babel/polyfill": "7.0.0",
+    "@babel/preset-env": "7.0.0",
+    "@babel/preset-react": "7.0.0",
+    "babel-loader": "8.0.2",
+    "clean-webpack-plugin": "0.1.19",
+    "copy-webpack-plugin": "4.5.2",
+    "css-loader": "1.0.0",
+    "html-webpack-plugin": "3.2.0",
+    "loader-utils": "1.1.0",
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+    "style-loader-treeshakeable": "file:../",
+    "webpack": "4.17.2",
+    "webpack-cli": "3.1.0",
+    "webpack-serve": "2.0.2"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  }
+}
